@@ -1,0 +1,27 @@
+{
+	"required"           : true,
+	"compatibilityLevel" : "JAVA_8",
+	"package"            : "me.obsidianbreaker.leux.mixins",
+	"refmap"             : "mixins.leux.refmap.json",
+	"mixins"             : [
+		"MixinPlayerControllerMP",
+		"MixinNetworkManager",
+		"MixinMinecraft",
+		"MixinEntitySP",
+		"MixinEntity",
+		"MixinGuiNewChat",
+		"MixinGuiScreen",
+		"MixinEntityRenderer",
+		"MixinWorld",
+		"MixinRenderPlayer",
+		"MixinPlayer",
+		"MixinItemRenderer",
+		"MixinGuiPlayerTabOverlay",
+		"MixinRenderLivingBase",
+		"MixinLayerArmorBase",
+		"MixinAbstractClientPlayer",
+		"MixinEnderCrystal",
+		"MixinGuiIngame",
+		"MixinGuiToast"
+	]
+}
